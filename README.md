@@ -3,7 +3,7 @@ This is JS random image url libaray. It can be use in any js framework (both fro
 
 **Installation and Integrate**  
 1-Add in package.json file.(dependencies section)  
-`"RandomImageUrl": "https://github.com/MuhammadUzair/random-image-url`  
+`"RandomImageUrl": "https://github.com/MuhammadUzair/random-image-url"`  
 and run `npm i` or `yarn`  
 2-Add in js   
 `import RandomImageUrl from 'random-image-url';`  
