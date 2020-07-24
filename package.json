@@ -1,18 +1,29 @@
 {
   "name": "RandomImageUrl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
+  "main": "./build/index.js",
   "keywords": [
     "RandomImageUrl",
     "random image",
     "react random image",
     "vue random image",
-    "js random image"
+    "js random image",
+    "unsplash",
+    "unsplash image",
+    "unsplash random image"
   ],
+  "scripts": {
+    "build": "babel index.js -d build"
+  },
   "dependencies": {
     "axios": "^0.18.1"
   },
   "peerDependencies": {
     "axios": "^0.18.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }
