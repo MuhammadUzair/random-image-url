@@ -6,14 +6,13 @@ A javascript package for random image url. Fetched images from unsplash. It can 
 `"random-image-url": "https://github.com/MuhammadUzair/random-image-url"`  
 and run `npm i` or `yarn`  
 2-Add in js   
-`import RandomImage from 'random-image-url';` 
+`import { FetchImage } from 'random-image-url';` 
 or
-`const RandomImage = require('random-image-url');`  
+`const RandomImage = require('random-image-url');`
+`const FetchImage = RandomImage.FetchImage;`  
 
 
-`RandomImage.FetchImage({ `  
-`type: 'user', width: 400, height: 400`  
-`})`  
+`FetchImage({ type: 'user', width: 400, height: 400 })` 
 `.then((image)=>{`  
  `let randomImage = image;` //return image url  
 `})` 
