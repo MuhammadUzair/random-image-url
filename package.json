@@ -1,0 +1,18 @@
+{
+  "name": "RandomImageUrl",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [
+    "RandomImageUrl",
+    "random image",
+    "react random image",
+    "vue random image",
+    "js random image"
+  ],
+  "dependencies": {
+    "axios": "^0.18.1"
+  },
+  "peerDependencies": {
+    "axios": "^0.18.1"
+  }
+}
