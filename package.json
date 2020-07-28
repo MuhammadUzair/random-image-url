@@ -1,6 +1,6 @@
 {
   "name": "random-image-unsplash",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "main": "./build/index.js",
   "description": "A javascript package for random image url. Fetched images from unsplash. It can be use in any javascript framework (both frontend and backend).",
@@ -14,6 +14,11 @@
     "unsplash image",
     "unsplash random image"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MuhammadUzair/random-image-url.git"
+  },
+  "homepage": "https://github.com/MuhammadUzair/random-image-url",
   "scripts": {
     "build": "babel index.js -d build"
   },
