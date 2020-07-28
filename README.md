@@ -10,20 +10,24 @@
 </p>  
 A javascript package for random image url. Fetched images from unsplash. It can be use in any javascript framework (both frontend and backend).
 
-### Installation and Integrate  
+## Getting Started
 1-Run
-`npm i node-chat-stream`
+`npm i node-chat-stream`  
 or  
 `yarn add node-chat-stream`  
 2-Add in js   
 `import { FetchImage } from 'random-image-url';` 
-or
+
+or  
 `const RandomImage = require('random-image-url').FetchImage;`  
 `const FetchImage = RandomImage.FetchImage;`  
 
 
 
+
+
 `FetchImage({ type: 'user', width: 400, height: 400 }).then((image)=>{  
+
  let randomImage = image; //return image url  
 }) 
 `
