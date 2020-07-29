@@ -19,8 +19,7 @@ or
 `import { FetchImage } from 'random-image-unsplash';` 
 
 or  
-`const RandomImage = require('random-image-unsplash').FetchImage;`  
-`const FetchImage = RandomImage.FetchImage;`  
+`const { FetchImage } = require('random-image-unsplash')` 
 
 
 
