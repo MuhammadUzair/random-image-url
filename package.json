@@ -15,7 +15,7 @@
     "unsplash random image"
   ],
   "scripts": {
-    "build": "babel index.js -d build"
+    "build": "babel ./src/index.js --out-file ./build/index.js"
   },
   "dependencies": {
     "axios": "^0.18.1"
