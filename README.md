@@ -16,20 +16,15 @@ A javascript package for random image url. Fetched images from unsplash. It can 
 or  
 `yarn add random-image-unsplash`  
 2-Add in js   
-`import { FetchImage } from 'random-image-unsplash';` 
-
-or  
-`const { FetchImage } = require('random-image-unsplash')` 
+`import { FetchImage } from 'random-image-unsplash';` or `const { FetchImage } = require('random-image-unsplash')` 
 
 
 
 
 
-`FetchImage({ type: 'user', width: 400, height: 400 }).then((image)=>{  
-
- let randomImage = image; //return image url  
-}) 
-`
+`FetchImage({ type: 'user', width: 400, height: 400 }).then((image)=>{`  
+` let randomImage = image; //return image url  `
+`})` 
 
 
 You can change width, height and type.  
