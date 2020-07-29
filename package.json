@@ -1,6 +1,6 @@
 {
   "name": "random-image-unsplash",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "private": false,
   "main": "./build/index.js",
   "description": "A javascript package for random image url. Fetched images from unsplash. It can be use in any javascript framework (both frontend and backend).",
